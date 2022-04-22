@@ -10,7 +10,7 @@ function Section({ children }: { children: ReactNode }): JSX.Element {
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-black font-mono text-white ">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-black py-4 font-mono text-white">
       <Section>
         <Contact />
       </Section>

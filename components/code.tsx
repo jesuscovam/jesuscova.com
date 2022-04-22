@@ -7,7 +7,11 @@ interface IProject {
 const projects: IProject[] = [
   {
     name: 'Slissto',
-    url: 'https://www.slissto.com',
+    url: 'https://slissto.com',
+  },
+  {
+    name: 'PlatziPunks',
+    url: 'https://platzipunks.jesuscova.com',
   },
 ]
 

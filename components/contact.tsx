@@ -43,14 +43,17 @@ export function Contact(): JSX.Element {
 
   return (
     <div className="flex flex-col space-y-5">
-      <Image
-        className="rounded-2xl"
-        layout="responsive"
-        src="/jesus.jpg"
-        quality={100}
-        width="200"
-        height="200"
-      />
+      <div>
+        <Image
+          priority
+          className="rounded-2xl"
+          layout="responsive"
+          src="/jesus.jpg"
+          quality={100}
+          width="200"
+          height="200"
+        />
+      </div>
       <div className="flex flex-col space-y-1 text-left">
         <h1>jesus cova</h1>
         {links?.map((link) => (

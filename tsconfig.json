@@ -17,9 +17,18 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/src/*": ["src/*"]
+      "@/posts/*": ["posts/*"],
+      "@/src/*": ["src/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".contentlayer/generated",
+    "contentlayer.config.ts",
+    "next.config.js"
+  ],
   "exclude": ["node_modules"]
 }

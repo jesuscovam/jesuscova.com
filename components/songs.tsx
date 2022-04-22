@@ -24,7 +24,7 @@ export function Songs(): JSX.Element {
       <h2 className="text-lg font-semibold">Beats</h2>
       <div className="mt-4">
         {songs?.map(({ title, src }) => (
-          <div className="flex flex-col space-y-2">
+          <div className="mt-2 flex flex-col space-y-2">
             <p className="font-medium italic">{title}</p>
             <audio controls src={src} />
           </div>

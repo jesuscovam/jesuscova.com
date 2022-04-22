@@ -23,6 +23,17 @@ const Home: NextPage = () => {
           <Songs />
         </Section>
       </div>
+      <footer className="mt-10">
+        <Section>
+          <a
+            href="https://github.com/jesuscovam/jesuscova.com"
+            target="_blank"
+            className="text-indigo-400 underline"
+          >
+            code from this website
+          </a>
+        </Section>
+      </footer>
     </div>
   )
 }

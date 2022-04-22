@@ -17,7 +17,7 @@ const links: ILink[] = [
     label: 'twitter',
   },
   {
-    url: 'https://www.github.com/jesuscovam/jesuscova.com',
+    url: 'https://www.github.com/jesuscovam',
     label: 'github',
   },
 ]

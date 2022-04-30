@@ -10,8 +10,8 @@ const projects: IProject[] = [
     url: 'https://slissto.com',
   },
   {
-    name: 'PlatziPunks',
-    url: 'https://platzipunks.jesuscova.com',
+    name: 'NFTS',
+    url: 'https://nfts.jesuscova.com',
   },
 ]
 
